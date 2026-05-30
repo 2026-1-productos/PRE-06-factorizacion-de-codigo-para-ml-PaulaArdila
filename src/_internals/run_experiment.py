@@ -1,9 +1,9 @@
 """Ejecuta un experimento completo de entrenamiento para un estimador dado."""
 
-from .calculate_metrics import calculate_metrics
-from .prepare_data import prepare_data
-from .print_metrics import print_metrics
-from .save_model import save_model
+from _internals.calculate_metrics import calculate_metrics
+from _internals.prepare_data import prepare_data
+from _internals.print_metrics import print_metrics
+from _internals.save_model import save_model
 
 
 def run_experiment(estimator):

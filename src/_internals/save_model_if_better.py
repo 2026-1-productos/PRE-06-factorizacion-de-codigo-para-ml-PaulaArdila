@@ -3,8 +3,8 @@
 import os
 import pickle
 
-from .compare_models import compare_models
-from .save_model import save_model
+from _internals.compare_models import compare_models
+from _internals.save_model import save_model
 
 
 def save_model_if_better(model, x_test, y_test, save_path="models/estimator.pkl"):
